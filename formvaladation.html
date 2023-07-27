@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../HTML/formvaladation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form action="" class="form" id="form" onclick="return validation()">
+            <div class="form-control success">
+                <label>Username:</label>
+                <input type="text" placeholder="abcde" id="username">
+                 <i class="fa fa-check-circle"></i>
+                 <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                 <p style="color: red;" id="username-error"></p>
+                </div>
+
+                <div class="form-control">
+                    <label>Emailid:</label>
+                    <input type="email" placeholder="abc@gmail.com" id="emailid">
+                     <i class="fa fa-check-circle"></i>
+                     <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                    
+                    </div>
+
+                    <div class="form-control">
+                        <label>Password:</label>
+                        <input type="password" placeholder="password" id="password">
+                         <i class="fa fa-check-circle"></i>
+                         <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                      
+                        </div>
+
+                        <div class="form-control">
+                            <label>Confirm password:</label>
+                            <input type="password" placeholder="confirm-password" id="confirmpassword">
+                             <i class="fa fa-check-circle"></i>
+                             <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                          
+                            </div>
+                           <button>Submit</button>
+        </form>
+
+    </div>
+    <script src="./formvaladation1.js"></script>
+  
+</body>
+</html>
